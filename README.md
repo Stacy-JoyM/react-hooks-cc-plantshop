@@ -14,7 +14,7 @@ The application includes a react app with App Component having two child compone
 * Run npm run server to run server 
 
 ## Live server
-* This project does not have a live server or db.json
+* This project does not have a live server nor live db.json
 
 ## Known Bugs
 The application works perfectly well, no bugs.
@@ -25,6 +25,6 @@ React JS , Git
 ## Support and contact details
 email :: joy.muthoka@student.moringaschool.com
 ### License
-*LIcenced under the [MT-licence](https://github.com/Stacy-JoyM/myportfolio/blob/main/LICENSE)*
+*LIcenced under the [MT-licence](https://github.com/Stacy-JoyM/react-hooks-cc-plantshop/blob/master/LICENSE)*
 
 Copyright (c) 2024 **Joy Muthoka**
