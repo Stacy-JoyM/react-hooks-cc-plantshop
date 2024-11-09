@@ -1,7 +1,7 @@
 # Phase 2 Code Challenge: Plantsy
 
 
-#### The app is part of phase 2 code challenge, 23/09/2024
+#### React Plantsy App, 23/09/2024
 #### **By Joy Muthoka**
 ## Description
 The application includes a react app with App Component having two child components: Header and Plant Page Component. PLant Page Component has three components : NewPLantForm, PLantList and Search. PLantList component holds PLantCard component. Some states are shared among sibling components passed down as props from Parent Component.
