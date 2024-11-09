@@ -1,43 +1,43 @@
 {
   "plants": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Aloe",
       "image": "./images/aloe.jpg",
       "price": 15.96
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
       "price": 25.92
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
       "price": 5.99
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Pothos",
       "image": "./images/pothos.jpg",
       "price": 12.11
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Jade",
       "image": "./images/jade.jpg",
       "price": 10.34
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
       "price": 25.99
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 50
@@ -59,6 +59,12 @@
       "name": "New Leafy Plant",
       "image": "https://hips.hearstapps.com/hmg-prod/images/man-watering-houseplants-royalty-free-image-1678736179.jpg?crop=0.668xw:1.00xh;0.136xw,0&resize=640:*",
       "price": 15.8
+    },
+    {
+      "id": "94c0c37b-088c-4e54-b29f-bffab5701445",
+      "name": "Indoor Planty",
+      "image": "./images/jade.jpg",
+      "price": 12.99
     }
   ]
 }

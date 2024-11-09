@@ -4,15 +4,15 @@
 #### React Plantsy App, 23/09/2024
 #### **By Joy Muthoka**
 ## Description
-The application includes a react app with App Component having two child components: Header and Plant Page Component. PLant Page Component has three components : NewPLantForm, PLantList and Search. PLantList component holds PLantCard component. Some states are shared among sibling components passed down as props from Parent Component.
+This project has complete core delivarables and one additional delivarable to update the plant price and name by clicking edit button that re-directs to form input to make changes.
 
 ## Setup/Installation Instruction
 * Download a zip in the code button to the desired folder
 * Extract the files
 * Open the extracted folder with VSCode
+* Run npm install
 * Run npm start in terminal to view app
-* Run npm run server to run server 
-
+* Run npm run server to run server - base URL is: http://localhost:6001
 ## Live server
 * This project does not have a live server nor live db.json
 
