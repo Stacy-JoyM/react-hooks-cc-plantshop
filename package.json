@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "server": "json-server --watch db.json -p 6001",
     "build": "react-scripts build",
