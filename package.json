@@ -1,5 +1,5 @@
 {
-  "homepage": "https://stacy-joym.github.io/react-hooks-cc-plantshop",
+  "homepage": "/",
   "name": "react-hooks-mock-code-challenge-plantshop",
   "version": "0.1.0",
   "private": true,
@@ -13,14 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "server": "json-server --watch db.json -p 6001",
     "build": "react-scripts build",
     "test": "jest --bail"
-  },
-  "engines": {
-    "node": "16.x"
   },
   "eslintConfig": {
     "extends": [
