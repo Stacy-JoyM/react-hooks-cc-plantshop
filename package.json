@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "json-server": "^0.16.3",
+    "json-server": "^0.17.4",
     "node-fetch": "^2.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -12,9 +12,8 @@
     "serve": "^14.2.4"
   },
   "engines": {
-  "node": "16.x"
- },
-
+    "node": "16.x"
+  },
   "scripts": {
     "start": "serve -s build ",
     "predeploy": "npm run build",
