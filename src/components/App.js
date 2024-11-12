@@ -10,7 +10,7 @@ function App() {
   
   //Fetch plants from the server when components first render
   useEffect(()=> {
-      fetch('http://localhost:6001/plants')
+      fetch('https://my-json-server.typicode.com/Stacy-JoyM/react-hooks-cc-plantshop/plants')
       .then((response) => response.json())
       .then((data) => setPlants(data)) //Store data in pizza state
       .catch((error) => console.error('Fetch error:', error)); // catch error for debugging 

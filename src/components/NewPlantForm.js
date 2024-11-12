@@ -44,7 +44,7 @@ function NewPlantForm({addPlant, plantToEdit, updatePlant, setEditing}) {
         price: parseFloat(formData.price),
       };
       // Save changes to server by creating a PATCH request 
-      fetch(`http://localhost:6001/plants/${updatedPlant.id}`, {
+      fetch(`https://my-json-server.typicode.com/Stacy-JoyM/react-hooks-cc-plantshop/plants/${updatedPlant.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
@@ -66,7 +66,7 @@ function NewPlantForm({addPlant, plantToEdit, updatePlant, setEditing}) {
           price: parseFloat(formData.price)
       }
       //Save the changes to the server using a POST rewuest
-      fetch(' http://localhost:6001/plants', {
+      fetch(' https://my-json-server.typicode.com/Stacy-JoyM/react-hooks-cc-plantshop/plants', {
         method: 'POST',
         body: JSON.stringify(newPlant),
         headers: {

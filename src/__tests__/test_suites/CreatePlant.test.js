@@ -17,7 +17,7 @@ describe('2nd Deliverable', () => {
         fireEvent.change(getByPlaceholderText('Price'), { target: { value: firstPlant.price } });
         fireEvent.click(getByText('Add Plant'))
 
-        expect(fetch).toHaveBeenCalledWith("http://localhost:6001/plants", {
+        expect(fetch).toHaveBeenCalledWith("https://my-json-server.typicode.com/Stacy-JoyM/react-hooks-cc-plantshop/plants", {
             method: "POST",
             headers: {
               "Content-Type": "Application/JSON",
@@ -37,7 +37,7 @@ describe('2nd Deliverable', () => {
         fireEvent.change(getByPlaceholderText('Price'), { target: { value: secondPlant.price } });
         fireEvent.click(getByText('Add Plant'))
     
-        expect(fetch).toHaveBeenCalledWith("http://localhost:6001/plants", {
+        expect(fetch).toHaveBeenCalledWith("https://my-json-server.typicode.com/Stacy-JoyM/react-hooks-cc-plantshop/plants", {
             method: "POST",
             headers: {
               "Content-Type": "Application/JSON",
