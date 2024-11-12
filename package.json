@@ -15,7 +15,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "serve -s build ",
+    "start": "json-server --watch db.json --port 8080 ",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "server": "json-server --watch db.json -p 6001",
